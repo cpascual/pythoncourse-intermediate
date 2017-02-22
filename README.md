@@ -25,8 +25,9 @@ In particular, you may be interested in:
   [intro course](https://git.cells.es/cpascual/pythoncourse-intro)
   *(Expected required time: 10'-30' , Priority: medium)*
   
-- Dedicate *at least* 1 hour to reading **and understanding** the following 
-  article (you can stop when you get to "Abstract Classes". 
+- Dedicate *at least* 1 hour to reading **and understanding** the [following 
+  article](https://jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/)
+  (note: you can stop when you get to "Abstract Classes". 
   *(Expected required time: 60'-180' Priority: very high)*
   
 - Install git on your machine and clone this repo. If you still haven't heard 
