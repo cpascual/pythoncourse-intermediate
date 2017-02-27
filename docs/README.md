@@ -1,12 +1,6 @@
-# Basic OOP
+# Course Summary
 
-Useful resources:
-
-- [Basic OOP Tutorial]
-
-Course summary:
-
-Day 1:
+## Day 1:
 - We looked at the [Basic OOP Tutorial] examplesto introduce basic concepts such as:
   - classes, objects, instances
   - initialization, `self`
@@ -19,7 +13,17 @@ We created [class_examples/oop_dawn2.py]() to understand the properties.
 
 - I proposed exercise 1 of [exercises/oop_dawn_exercises.md](/exercises/oop_dawn_exercises.md)
 
-# Basic Qt
+## Day2
+
+- I propose exercise2 and 3 of [exercises/oop_dawn_exercises.md](/exercises/oop_dawn_exercises.md)
+
+# Resources
+
+## Basic OOP
+
+- [Basic OOP Tutorial]
+
+## Basic Qt
 
 Useful resources:
 
