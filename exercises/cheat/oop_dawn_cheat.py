@@ -65,6 +65,9 @@ class Boss(Collaborator):
 
     @staticmethod
     def evaluate(collab):
+        """Sets the evaluation attribute of a given collaborator to a
+        some points
+        """
         points = min(10, np.random.normal(loc=collab.average_points, scale=2))
         collab.evaluation = points
 
@@ -112,6 +115,10 @@ class Staff(list):
         """ add `n` collabs of type `klass` """
         for _ in range(n):
             self.append(klass(self.random_name()))
+
+    def add_collaborator(self, collab):
+        """append a new collaborator"""
+        self.append(collab)
 
     def simulate_year(self, repl=0, new=()):
         """
