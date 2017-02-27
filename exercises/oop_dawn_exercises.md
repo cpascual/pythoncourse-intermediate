@@ -12,7 +12,7 @@ which has an attribute `evaluations` that stores ALL the evaluations (a list)
 The following code must work:
 
 
-```
+```python
 c = MyCollaborator("pepe")
 boss = Boss("Jefez")
 
@@ -36,7 +36,7 @@ assert(c.evaluations[-1] == c.evaluation)
 
 Right now, a print on a collaborator is not very user-friendly:
 
-```
+```python
 In [1]: import oop_dawn
 
 In [2]: c = oop_dawn.Collaborator('Mindundez')
@@ -47,7 +47,7 @@ In [3]: print c
 
 Make make it so that the following test passes:
 
-```
+```python
 c1 = Collaborator('Mindundez')
 c2 = Boss('Jefez')
 c3 = SuperBoss('Juan Bueno')
