@@ -14,8 +14,9 @@ We created [class_examples/oop_dawn2.py]() to understand the properties.
 - I proposed exercise 1 of [exercises/oop_dawn_exercises.md](/exercises/oop_dawn_exercises.md)
 
 ## Day2
-
-- I propose exercise2 and 3 of [exercises/oop_dawn_exercises.md](/exercises/oop_dawn_exercises.md)
+- We finish exercise 1 of [exercises/oop_dawn_exercises.md](/exercises/oop_dawn_exercises.md)
+- We introduce "special methods" and do exercise2 of [exercises/oop_dawn_exercises.md](/exercises/oop_dawn_exercises.md)
+- We work on exercise3 [exercises/oop_dawn_exercises.md](/exercises/oop_dawn_exercises.md) and discuss the [Inheritance vs composition patterns in OOP](https://en.wikipedia.org/wiki/Composition_over_inheritance)
 
 # Resources
 
