@@ -15,7 +15,7 @@ We created [class_examples/oop_dawn2.py]() to understand the properties.
 
 ## Day2
 - We finish exercise 1 of [exercises/oop_dawn_exercises.md](/exercises/oop_dawn_exercises.md)
-- We introduce "special methods" and do exercise2 of [exercises/oop_dawn_exercises.md](/exercises/oop_dawn_exercises.md)
+- We introduce ["special methods"](https://docs.python.org/2/reference/datamodel.html#special-method-names) and do exercise2 of [exercises/oop_dawn_exercises.md](/exercises/oop_dawn_exercises.md)
 - We work on exercise3 [exercises/oop_dawn_exercises.md](/exercises/oop_dawn_exercises.md) and discuss the [Inheritance vs composition patterns in OOP](https://en.wikipedia.org/wiki/Composition_over_inheritance)
 
 # Resources
