@@ -9,7 +9,7 @@
   - inheritance
 
 - We used [oop_dawn.py] to dive deeper all previous OOP concepts and to introduce setter/getters and properties.
-We created [class_examples/oop_dawn2.py]() to understand the properties.
+We created [class_examples/oop_dawn2.py](class_examples/oop_dawn2.py) to understand the properties.
 
 - I proposed exercise 1 of [exercises/oop_dawn_exercises.md](/exercises/oop_dawn_exercises.md)
 
