@@ -8,7 +8,7 @@ It should be possible to :
 
 """
 import numpy as np
-from exercises.cheat.oop_dawn_cheat import Collaborator, Boss, SuperBoss
+from cheat.oop_dawn_cheat import Collaborator, Boss, SuperBoss
 
 
 # implement the Staff class here
