@@ -39,7 +39,7 @@ We create [class_examples/oop_dawn2.py](class_examples/oop_dawn2.py) to understa
 - We Introduce Qt Designer
 - We Mention PyUic and Introduce [uiload](/exercises/uiload.py) module.
   **UPDATE:** See [qtexercise2_uic.py](/exercises/cheat/qtexercise2_uic.py) for an uiload-free approach
-- We Do [qt exercise02](/exercises/qt_exercises.md)
+- We Do [exercise](/exercises) Qt-2
 - We Mention QTimer and QTimer.singleShot
 
 We ran out of time for discussing:
