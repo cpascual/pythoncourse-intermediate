@@ -1,24 +1,24 @@
 # Course Summary
 
 ## Day 1:
-- We looked at the [Basic OOP Tutorial] examplesto introduce basic concepts such as:
+- We look at the [Basic OOP Tutorial] examples to introduce basic concepts such as:
   - classes, objects, instances
   - initialization, `self`
   - static methods
-- We wrote [oop_inheritance](class_examples/oop_inheritance.py) to play with inheritance (and multiple inheritance)
+- We write [oop_inheritance](class_examples/oop_inheritance.py) to play with inheritance (and multiple inheritance)
   - inheritance
 
-- We used [oop_dawn.py] to dive deeper all previous OOP concepts and to introduce setter/getters and properties.
-We created [class_examples/oop_dawn2.py](class_examples/oop_dawn2.py) to understand the properties.
+- We use [oop_dawn.py] to dive deeper at all previous OOP concepts and to introduce setter/getters and properties.
+We create [class_examples/oop_dawn2.py](class_examples/oop_dawn2.py) to understand the properties.
 
-- I proposed exercise 1 of [exercises/oop_dawn_exercises.md](/exercises/oop_dawn_exercises.md)
+- I propose [exercise](/exercises) OOP-1
 
 ## Day 2
 
-- We finish exercise 1 of [oop_dawn_exercises.md](/exercises/oop_dawn_exercises.md)
+- We finish [exercise](/exercises) OOP-1
 - We introduce ["special methods"](https://docs.python.org/2/reference/datamodel.html#special-method-names)
-  and do exercise2 of [exercises/oop_dawn_exercises.md](/exercises/oop_dawn_exercises.md)
-- We work on exercise3 [exercises/oop_dawn_exercises.md](/exercises/oop_dawn_exercises.md) and discuss the
+  and do [exercise](/exercises) OOP-2
+- We work on [exercise](/exercises) OOP-3 and discuss the
   [Inheritance vs composition patterns in OOP](https://en.wikipedia.org/wiki/Composition_over_inheritance)
 - We introduce concepts such as [Duck Typing](https://en.wikipedia.org/wiki/Duck_typing#In_Python) and
   [Monkey Patching](http://stackoverflow.com/a/5626250) and then sum up OOP concepts by studying the full
@@ -30,17 +30,17 @@ We created [class_examples/oop_dawn2.py](class_examples/oop_dawn2.py) to underst
   - Qt parenting relations
   - Qt signals (mentioning old-style signals and focusing on new-style signals)
   - Qt Event loop
-  - Work on understanding the simplest PyQt4 examples [qtexample01](qtexample01.py) and [qtexample02](qtexample02.py)
+  - the simplest PyQt4 examples [qtexample01](qtexample01.py) and [qtexample02](qtexample02.py)
 
 ## Day 3
 
-- Introduce Layouts
-- Do [qt exercise01](/exercises/qt_exercises.md)
-- Introduce Qt Designer
-- Mention PyUic and Introduce [uiload](/exercises/uiload.py) module.
+- We Introduce Layouts
+- We Do [exercise](/exercises) Qt-1
+- We Introduce Qt Designer
+- We Mention PyUic and Introduce [uiload](/exercises/uiload.py) module.
   **UPDATE:** See [qtexercise2_uic.py](/exercises/cheat/qtexercise2_uic.py) for an uiload-free approach
-- Do [qt exercise02](/exercises/qt_exercises.md)
-- Mention QTimer and QTimer.singleShot
+- We Do [qt exercise02](/exercises/qt_exercises.md)
+- We Mention QTimer and QTimer.singleShot
 
 We ran out of time for discussing:
   - Qt's Model-View mechanism
