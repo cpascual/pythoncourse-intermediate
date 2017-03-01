@@ -2,7 +2,7 @@
 
 # Qt exercise 1: create a basic widget
 
-Run `python exercises.cheat.qtexercise1` and try to reproduce it by programming
+Run `python exercises/cheat/qtexercise1.py` and try to reproduce it by programming
 it yourself. Pay attention to the layouts and the signals.
 
 Notes:
