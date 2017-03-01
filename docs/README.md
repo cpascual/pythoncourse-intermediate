@@ -34,21 +34,23 @@ We created [class_examples/oop_dawn2.py](class_examples/oop_dawn2.py) to underst
 
 ## Day 3
 
-(TODO)
 - Introduce Layouts
-- Do qtexercise01
+- Do [qt exercise01](/exercises/qt_exercises.md)
 - Introduce Qt Designer
-- Mention PyUic and Introduce [uiload](/exercises/uiload.py) module
-- Do qtexercise02
-- Mention various Qt widgets/mechanism:
-  - QTimer and QTimer.singleShot
+- Mention PyUic and Introduce [uiload](/exercises/uiload.py) module.
+  **UPDATE:** See [qtexercise2_uic.py](/exercises/cheat/qtexercise2_uic.py) for an uiload-free approach
+- Do [qt exercise02](/exercises/qt_exercises.md)
+- Mention QTimer and QTimer.singleShot
+
+We ran out of time for discussing:
   - Qt's Model-View mechanism
   - discuss QThread, QFile, VS their python standard library alternatives
 
 ## Day 4
+
 - Introduce Taurus
 - Explain Taurus Model-View architecture (schemes, ...)
-- Do taurusexercise01 (Create a new compsite widget that uses uses Taurus)
+- Do taurusexercise01 (Create a new composite widget that uses Taurus)
 - Introduce TaurusBaseComponent as a way to create new Taurus widgets/objects (handleEvent, etc)
 
 
