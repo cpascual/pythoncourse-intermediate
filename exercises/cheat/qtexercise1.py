@@ -39,7 +39,7 @@ class MyWidget1(QtGui.QWidget):
         # fill the layouts
         layout1.addWidget(self.lineEdit)
         layout1.addWidget(self.clearButton)
-        layout2.addItem(layout1)
+        layout2.addLayout(layout1)
         layout2.addWidget(self.textBrowser)
 
         # set the main layout of self
