@@ -60,6 +60,7 @@ assert(str(c3) == "Juan Bueno:SuperBoss")
 Note: you may find the [docs of the special methods](https://docs.python.org/2/reference/datamodel.html#special-method-names
 ) interesting:
 
+
 # OOP exercise 3: Create a class `Staff`
 
 Implement the `Staff` class missing in [staff.py]() so that it passes the tests and conforms to the docs
@@ -82,21 +83,23 @@ Notes:
 Do the same as qtexercise01 but using the Qt Designer
 
 
-# Taurus exercise1: A simple taurus example in PyQt
+# Taurus exercise1: A simple taurus example with taurusdesigner
 
 Run `python exercises/cheat/taurusexercise1.py --taurus-polling-period=500` and try to reproduce it by programming
 it yourself.
 
 Notes:
 
-- enter a valid taurusattribute name in the lineEdit and click the button to set the model to the label in the bottom
+- Use taurusdesigner to create the ui, and use `UILoader` from `taurus.qt.qtgui.util.ui`
+- when running, enter a valid taurusattribute name in the lineEdit (e.g. `eval:rand()`)
+  and click the button to set the model to the label in the bottom
 
 
-# Taurus exercise2: A simple taurus example in PyQt
+# Taurus exercise2: Taurus-ify an existing widget
 
 Create a new Taurus Widget based on a QLabel that:
 
-- accepts an attribute as a Model (inherits from TaurusBaseComponent)
+- accepts an attribute as a Model (i.e., inherits from TaurusBaseComponent)
 - reacts to new values of the model by setting its own text as follows:
  - if the value is odd, it shows "ODD: <value>"
  - if the value is even, it shows "EVEN <value>"
