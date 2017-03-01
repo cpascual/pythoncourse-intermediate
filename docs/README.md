@@ -48,7 +48,7 @@ We ran out of time for discussing:
 
 ## Day 4
 
-- Introduce Taurus
+- Introduce [Taurus](https://www.taurus-scada.org)
 - Explain Taurus Model-View architecture (schemes, ...)
 - Do taurusexercise01 (Create a new composite widget that uses Taurus)
 - Introduce TaurusBaseComponent as a way to create new Taurus widgets/objects (handleEvent, etc)
@@ -71,6 +71,10 @@ Useful resources:
 - Note: the C++ Qt class reference can be more usable than the PyQt4 one:
   - http://doc.qt.io/qt-4.8/classes.html
 
+## Taurus
 
+- [Taurus main page](https://www.taurus-scada.org)
+- [Slides of TangoMeeting2016](TaurusStatus-TangoMeeting201606-v7.pdf)
+- [Slides of ICALEPCS2015](THHC3O03_talk.pdf)
 
 [Basic OOP Tutorial]: https://jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/
