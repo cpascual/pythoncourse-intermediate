@@ -1,5 +1,3 @@
-
-
 # OOP exercise 1: add eval history to oop_dawn.Collaborator
 
 oop_dawn.Collaborator stores the evaluation points in an attribute "evaluation".
@@ -83,7 +81,7 @@ Notes:
 Do the same as qtexercise01 but using the Qt Designer
 
 
-# Taurus exercise1: A simple taurus example with taurusdesigner
+# Taurus exercise 1: A simple taurus example with taurusdesigner
 
 Run `python exercises/cheat/taurusexercise1.py --taurus-polling-period=500` and try to reproduce it by programming
 it yourself.
@@ -95,7 +93,7 @@ Notes:
   and click the button to set the model to the label in the bottom
 
 
-# Taurus exercise2: Taurus-ify an existing widget
+# Taurus exercise 2: Taurus-ify an existing widget
 
 Create a new Taurus Widget based on a QLabel that:
 
