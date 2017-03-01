@@ -61,7 +61,7 @@ Note: you may find the [docs of the special methods](https://docs.python.org/2/r
 
 # OOP exercise 3: Create a class `Staff`
 
-Implement the `Staff` class missing in [staff.py]() so that it passes the tests and conforms to the docs
+Implement the `Staff` class missing in [staff.py](staff.py) so that it passes the tests and conforms to the docs
 
 **Try not to look at the exercises.cheat.oop_dawn_cheat module!!**
 
