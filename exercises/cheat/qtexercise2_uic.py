@@ -15,6 +15,7 @@ recommend it over the UILoadable approach .
 """
 
 import sys
+import os
 from PyQt4 import QtGui, uic
 
 
@@ -26,7 +27,8 @@ class MyWidget3(QtGui.QWidget):
         # call the parent class init
         QtGui.QWidget.__init__(self, parent=parent)
 
-        uic.loadUi('ui/MyWidget2b.ui', self)  # simpler recipe than using uiload
+        uipath = os.path.join(os.path.dirname(__file__), 'ui', 'MyWidget2b.ui')
+        uic.loadUi(uipath, self)  # simpler recipe than using uiload
 
         # connect signals  (IMPORTANT: check the object names in the .ui!)
         self.pushButton.clicked.connect(self.lineEdit.clear)
