@@ -130,13 +130,17 @@ if __name__ == "__main__":
 
 # Taurus exercise 2: Taurus-ify an existing widget
 
-Create a new Taurus Widget based on a QLabel that:
+
+ Create a taurus-aware QLabel that accepts an attribute as its model and shows
+whether its rvalue is ODD or EVEN (you may assume that rvalue is always an int)
 
 - accepts an attribute as a Model (i.e., inherits from TaurusBaseComponent)
 - reacts to new values of the model by setting its own text as follows:
  - if the value is odd, it shows "ODD: <value>"
  - if the value is even, it shows "EVEN <value>"
  - in any other case (e.g. if not an int) it shows "INVALID: <value>"
+ - test it using `<widget>.setModel('eval:randint(1,9)')`
+ - Hint: you can check if a number is odd with: `int(<number>) % 2`
 
 
 
