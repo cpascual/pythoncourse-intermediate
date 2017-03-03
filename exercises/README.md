@@ -91,6 +91,41 @@ Notes:
 - Use taurusdesigner to create the ui, and use `UILoader` from `taurus.qt.qtgui.util.ui`
 - when running, enter a valid taurusattribute name in the lineEdit (e.g. `eval:rand()`)
   and click the button to set the model to the label in the bottom
+- For the .py file, use the following template:
+```python
+import sys
+from taurus.external.qt import QtGui
+from taurus.qt.qtgui.application import TaurusApplication
+from taurus.qt.qtgui.util.ui import UILoadable
+
+@UILoadable
+class TaurusExercise1Widget(QtGui.QWidget):
+    """A specialized QLineEdit"""
+
+    def __init__(self, parent=None):
+
+        # ...
+        # load the UI from ui/TaurusExercise1Widget.ui
+        self.loadUi()
+        # ...
+    
+    # ...
+
+if __name__ == "__main__":
+
+    # Initialize a Qt application (Qt will crash if you do not do this first)
+    app = TaurusApplication()
+
+    # instantiate the widget
+    w = TaurusExercise1Widget()
+
+    # show it (if you do not show the widget, it won't be visible)
+    w.show()
+
+    # Initialize the Qt event loop (and exit when we close the app)
+sys.exit(app.exec_())
+```
+  
 
 
 # Taurus exercise 2: Taurus-ify an existing widget
