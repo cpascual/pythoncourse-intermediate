@@ -123,7 +123,7 @@ if __name__ == "__main__":
     w.show()
 
     # Initialize the Qt event loop (and exit when we close the app)
-sys.exit(app.exec_())
+    sys.exit(app.exec_())
 ```
   
 
