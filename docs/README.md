@@ -36,7 +36,7 @@ We create [class_examples/oop_dawn2.py](class_examples/oop_dawn2.py) to understa
 
 - We Introduce Layouts
 - We Do [exercise](/exercises) Qt-1
-- We Introduce Qt Designer
+- We Introduce [Qt Designer](http://doc.qt.io/qt-4.8/designer-manual.html) 
 - We Mention PyUic and Introduce [uiload](/exercises/uiload.py) module.
   **UPDATE:** See [qtexercise2_uic.py](/exercises/cheat/qtexercise2_uic.py) for an uiload-free approach
 - We Do [exercise](/exercises) Qt-2
@@ -64,12 +64,13 @@ We ran out of time for discussing:
 
 Useful resources:
 
-- [Tutorial](http://zetcode.com/gui/pyqt4/)
+- [Qt Tutorial](http://zetcode.com/gui/pyqt4/)
 - PyQt4 Docs:
   - http://pyqt.sourceforge.net/Docs/PyQt4/introduction.html
   - http://pyqt.sourceforge.net/Docs/PyQt4/classes.html
 - Note: the C++ Qt class reference can be more usable than the PyQt4 one:
   - http://doc.qt.io/qt-4.8/classes.html
+- [Qt Designer Manual](http://doc.qt.io/qt-4.8/designer-manual.html) 
 
 ## Taurus
 
