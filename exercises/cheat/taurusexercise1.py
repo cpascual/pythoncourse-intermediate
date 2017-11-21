@@ -1,16 +1,9 @@
 """
-qt exercise 2 (without using uiload)
+taurus exercise 1
 
-Redo qtexercise2 but using the PyQt4.uic module directly
-
-My previous solutions for solving qtexercise2 involved using the UILoadable
-decorator which is part of Taurus (or needs to be imported from the uiload
-non-standard uiload module.
-
-During the course, it was suggested that the PyQt4.uic module could be used
-directly, and I wanted to test it. It seems that the same can indeed be
-achieved this way, (see qtexercise2_uic.py) so it seems reasonable to
-recommend it over the UILoadable approach .
+Show a line edit, a button and a TarusLabel. The user should be able to 
+type an attribute name in the LineEdit and, When clicking the button,
+the TaurusLabel should show value of that attribute.
 
 """
 
