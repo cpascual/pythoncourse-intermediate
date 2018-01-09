@@ -1,11 +1,12 @@
 # Python Intermediate Course
 
 This project contains materials and resources related to the Python Intermediate
-course at ALBA:
+course (Object Oriented Programming, Qt and Taurus) at ALBA:
 
 In particular, you may be interested in:
 
-- [docs](docs): I will put links and documents of interest for the course here.
+- [docs](docs): Course index, documents and links of interest for the course 
+  here.
 
 - Proposed [exercises](exercises) and their [solutions](exercises/cheat)
 
