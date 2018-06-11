@@ -40,7 +40,7 @@ review / work on exercises before the next session.
 **Attending to previous sessions is a strong requisite to be able to follow 
 the next session**.
 
-It also requires between 2.5h to 5h **before the course** to complete the 
+It also requires between 2.5h to 5h *before the course* to complete the 
 pre-course check-list (see below).
 
 
