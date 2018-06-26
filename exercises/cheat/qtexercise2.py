@@ -1,39 +1,43 @@
 """
-exercise 1
+Qt exercise 2 (solved in )
 
 """
 
+import os
 import sys
-from PyQt4 import QtGui
-from uiload import UILoadable
+from PyQt4 import QtGui, uic  
 
 
-@UILoadable()
 class MyWidget2(QtGui.QWidget):
-    """A specialized QLineEdit"""
+    """A specialized QLineEdit (implemented using signal connections declared
+    in the loaded .ui file)
+    """
 
     def __init__(self, parent=None):
 
         # call the parent class init
         QtGui.QWidget.__init__(self, parent=parent)
 
-        # set ui (this will load `ui/MyWidget2.ui`)
+        # get the absolute path to `ui/MyWidget2.ui` and load it into self
         # Note: this .ui includes signal connections!
-        self.loadUi()
+        uipath = os.path.join(os.path.dirname(__file__), 'ui', 'MyWidget2.ui')
+        uic.loadUi(uipath, self) 
 
 
-@UILoadable()
 class MyWidget2b(QtGui.QWidget):
-    """A specialized QLineEdit"""
+    """A specialized QLineEdit (alternative implementation connecting signals 
+    in this .py file)
+    """
 
     def __init__(self, parent=None):
 
         # call the parent class init
         QtGui.QWidget.__init__(self, parent=parent)
 
-        # set ui (this will load `ui/MyWidget2b.ui`)
-        # Note: this ui does *not* include any signal connection
-        self.loadUi()
+        # get the absolute path to `ui/MyWidget2b.ui` and load it into self
+        # Note: this .ui *does not* include signal connections!
+        uipath = os.path.join(os.path.dirname(__file__), 'ui', 'MyWidget2b.ui')
+        uic.loadUi(uipath, self)  
 
         # connect signals  (IMPORTANT: check the object names in the .ui!)
         self.pushButton.clicked.connect(self.lineEdit.clear)
