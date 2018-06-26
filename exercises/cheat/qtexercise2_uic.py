@@ -16,7 +16,9 @@ recommend it over the UILoadable approach .
 
 import sys
 import os
-from PyQt4 import QtGui, uic
+from PyQt4 import QtGui, uic  
+# NOTE: If you are using taurus, import from taurus.external.qt instead:
+# from taurus.external.qt import QtGui, uic
 
 
 class MyWidget3(QtGui.QWidget):
