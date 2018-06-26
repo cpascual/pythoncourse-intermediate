@@ -37,8 +37,7 @@ We create [class_examples/oop_dawn2.py](class_examples/oop_dawn2.py) to understa
 - We Introduce Layouts
 - We Do [exercise](/exercises) Qt-1
 - We Introduce [Qt Designer](http://doc.qt.io/qt-4.8/designer-manual.html) 
-- We Mention PyUic and Introduce [uiload](/exercises/uiload.py) module.
-  **UPDATE:** See [qtexercise2_uic.py](/exercises/cheat/qtexercise2_uic.py) for an uiload-free approach
+- We Mention PyUic and Introduce [`PyQt.uic.loadUi()`](http://pyqt.sourceforge.net/Docs/PyQt4/designer.html#the-uic-module) for dynamic UI loading.
 - We Do [exercise](/exercises) Qt-2
 - We Mention QTimer and QTimer.singleShot
 
