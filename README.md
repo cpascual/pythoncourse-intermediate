@@ -51,7 +51,7 @@ pre-course check-list (see below).
 - install the needed software (python2.7, PyQt4, scipy, pyqtgraph and an IDE) 
   **on your PC** (i.e. do not assume you can connect to Control Room or BL machines 
   during the course). It is highly recommended that you follow [these instructions](https://git.cells.es/cpascual/pythoncourse-intro/blob/master/pre-course.md)).
-  Note: For the intermediate course I strongly suggest to install[PyCharm Community Edition](https://www.jetbrains.com/pycharm)
+  Note: For the intermediate course I strongly suggest to install [PyCharm Community Edition](https://www.jetbrains.com/pycharm)
   *(Expected required time: 20'-60'  , Priority: very high)*
   
 - Dedicate *at least* 1 hour to reading **and understanding** [this article on
