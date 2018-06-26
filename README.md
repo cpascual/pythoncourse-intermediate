@@ -14,13 +14,11 @@ In particular, you may be interested in:
 
 **IMPORTANT**: Make sure to follow this checklist **before** starting the course:
 
-- make sure that python 2.7, ipython, PyQt4, matplotlib, scipy and spyder are 
-  installed in **your PC** (e.g. do not expect to connect to Control Room 
-  machines during the course). If you use windows, just install 
-  [PythonXY](http://python-xy.github.io). Try at least to launch spyder once. 
-  If you need assistance, please contact Systems. 
-  *(Expected required time: 5'-60'  , Priority: high)*
-  
+- install the needed software (python2.7, PyQt4, scipy, pyqtgraph and an IDE) 
+  **on your PC** (i.e. do not assume you can connect to Control Room or BL machines 
+  during the course). It is highly recommended that you follow [these instructions](https://git.cells.es/cpascual/pythoncourse-intro/blob/master/pre-course.md)).
+  *(Expected required time: 5'-30'  , Priority: high)*
+
 - Have a quick look (for refreshing) at the material and docs from the 
   [intro course](https://git.cells.es/cpascual/pythoncourse-intro)
   *(Expected required time: 10'-30' , Priority: medium)*
