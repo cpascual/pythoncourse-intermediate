@@ -1,6 +1,31 @@
 # Course Summary
 
+
 ## Day 1:
+
+### Environment preparation
+- We assume that you already did the [pre-course installation](https://git.cells.es/cpascual/pythoncourse-intro/blob/master/pre-course.md)
+- Connect to your machine
+- Check that the environment is working.
+  - windows: Anaconda prompt -> `conda activate course`
+  - linux: `source miniconda/bin/activate course`
+- Fork the [official repo](https://git.cells.es/cpascual/pythoncourse-intermediate)
+- Clone from fork  `git clone git@git.cells.es:<YOURUSERNAME>/pythoncourse-intermediate.git`
+- Add official remote: `git remote add official git@git.cells.es:cpascual/pythoncourse-intermediate.git`
+- PyCharm: create a PyCharm project from the local repo
+  - use conda course environment as the interpreter for the project
+  - check that the `Settings-> editor-> inspections-> code compatibility inspections` is set to 2.7, 3.5 and 3.6
+- PyCharm quick demo and configuration:
+  - Show the Structure view (`View menu -> toolWindows-> Structure`). Suggest: `gear icon -> move -> right`
+  - Scratch files: `File -> New Scratch File`
+  - Double click on tab to disable/reenable docked panels
+  - Live templates: e.g. create main section with `CTRL+J` + "ma..." 
+  - Autocompletion: type `im`...`ENTER`...`pyqt`...`ENTER` to get `import pyqtgraph`
+  - Check git menu (bottom right). It should show the origin and official 
+    remotes and their branches
+  - ...
+
+### lessons start
 - We look at the [Basic OOP Tutorial] examples to introduce basic concepts such as:
   - classes, objects, instances
   - initialization, `self`
