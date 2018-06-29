@@ -8,7 +8,7 @@
 - Connect to your machine
 - Check that the environment is working.
   - windows: Anaconda prompt -> `conda activate course`
-  - linux: `source miniconda/bin/activate course`
+  - linux: `source ~/miniconda/bin/activate course`
 - Fork the [official repo](https://git.cells.es/cpascual/pythoncourse-intermediate)
 - Clone from fork  `git clone git@git.cells.es:<YOURUSERNAME>/pythoncourse-intermediate.git`
 - Add official remote: `git remote add official git@git.cells.es:cpascual/pythoncourse-intermediate.git`
