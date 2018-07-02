@@ -33,7 +33,7 @@
 - We write [oop_inheritance](class_examples/oop_inheritance.py) to play with inheritance (and multiple inheritance)
   - inheritance
 
-- We use [oop_dawn.py] to dive deeper at all previous OOP concepts and to introduce setter/getters and properties.
+- We use [oop_dawn.py]() to dive deeper at all previous OOP concepts and to introduce setter/getters and properties.
 We create [class_examples/oop_dawn2.py](class_examples/oop_dawn2.py) to understand the properties.
 
 - I propose [exercise](/exercises) OOP-1
