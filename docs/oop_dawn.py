@@ -25,6 +25,8 @@ class Collaborator(object):
     def set_evaluation(self, points):
         self._evaluation = min(10, points)
 
+    evaluation = property(fget=get_evaluation,fset=set_evaluation)
+
     @property
     def bonus(self):
         """returns the bonus for this year"""
