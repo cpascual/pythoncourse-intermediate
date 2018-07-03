@@ -17,7 +17,13 @@ class Collaborator(object):
             base_salary = np.random.normal(loc=self.avg_salary,
                                            scale= 0.1 * self.avg_salary)
         self.base_salary = base_salary
-        self.evaluation = None
+        self._evaluation = None
+
+    def get_evaluation(self):
+        return self._evaluation
+
+    def set_evaluation(self, points):
+        self._evaluation = min(10, points)
 
     @property
     def bonus(self):
@@ -42,7 +48,7 @@ class Boss(Collaborator):
     @staticmethod
     def evaluate(collab):
         points = min(10, np.random.normal(loc=7, scale=2))
-        collab.evaluation = points
+        collab.set_evaluation(points)
 
 
 class SuperBoss(Boss):
