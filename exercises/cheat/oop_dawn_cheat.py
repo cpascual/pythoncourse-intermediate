@@ -188,13 +188,13 @@ if __name__ == "__main__":
         all_staff.print_stats()
 
     # plot
-    import pyqtgraph as pg
-    win = pg.GraphicsWindow()
-    for i, attr in enumerate(("bonuses", "salaries", "base_salaries")):
-        plt = win.addPlot(row=i, col=0, title=attr)
-        h, bins = np.histogram(getattr(all_staff, attr), bins=100)
-        plt.plot(bins, h, stepMode=True, fillLevel=0, brush="b")
-    raw_input("press Enter to exit")
+    # import pyqtgraph as pg
+    # win = pg.GraphicsWindow()
+    # for i, attr in enumerate(("bonuses", "salaries", "base_salaries")):
+    #     plt = win.addPlot(row=i, col=0, title=attr)
+    #     h, bins = np.histogram(getattr(all_staff, attr), bins=100)
+    #     plt.plot(bins, h, stepMode=True, fillLevel=0, brush="b")
+    # raw_input("press Enter to exit")
 
 
 
