@@ -29,7 +29,7 @@ w = QtGui.QLineEdit()
 w.textChanged.connect(printText)
 
 # call a method of the widget
-w.setText('This is a PyQt4.QtGui.QLabel widget')
+w.setText('This is a PyQt4.QtGui.QLineEdit widget')
 
 # show it (if you do not show the widget, it won't be visible)
 w.show()
