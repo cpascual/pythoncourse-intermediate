@@ -101,6 +101,7 @@ Useful resources:
 - Note: the C++ Qt class reference can be more usable than the PyQt4 one:
   - http://doc.qt.io/qt-4.8/classes.html
 - [Qt Designer Manual](http://doc.qt.io/qt-4.8/designer-manual.html) 
+- [Information about new style signals and slots](http://pyqt.sourceforge.net/Docs/PyQt4/new_style_signals_slots.html)
 
 ## Taurus
 
