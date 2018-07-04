@@ -103,12 +103,12 @@ class Staff(list):
     def replace_collabs(self, n):
         """ pick up n  collaborators and replace them by "newcomers" """
         for _ in range(n):
-            i = np.random.randint(1, len(all_staff))  # choose them randomly
-            c = all_staff[i]
+            i = np.random.randint(1, len(self))  # choose them randomly
+            c = self[i]
             klass = type(c)
             name = self.random_name()
             base_salary = c.base_salary * 0.8  # "you know... the crisis..."
-            all_staff[i] = klass(name, base_salary)
+            self[i] = klass(name, base_salary)
         return
 
     def add_collabs(self, klass, n=1):
