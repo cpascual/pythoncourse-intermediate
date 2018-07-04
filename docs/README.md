@@ -61,12 +61,16 @@
 
 ## Day 3
 
-- We Introduce Layouts
-- We Do [exercise](/exercises) Qt-1
-- We Introduce [Qt Designer](http://doc.qt.io/qt-4.8/designer-manual.html) 
-- We Mention PyUic and Introduce [`PyQt.uic.loadUi()`](http://pyqt.sourceforge.net/Docs/PyQt4/designer.html#the-uic-module) for dynamic UI loading.
-- We Do [exercise](/exercises) Qt-2
-- We Mention QTimer and QTimer.singleShot
+- Introduce Layouts:
+  - importance of layouts vs fixing sizes and positions (the LaTex vs WYSIWYG analogy)
+  - `QtGui.QVBoxLayout` and `QtGui.QHBoxLayout`
+  - `layout.addWidget()` and `layout.addLayout()`
+  - `widget.setLayout()` 
+- Do [exercise](/exercises) Qt-1
+- Introduce [Qt Designer](http://doc.qt.io/qt-4.8/designer-manual.html) 
+- Mention PyUic and Introduce [`PyQt.uic.loadUi()`](http://pyqt.sourceforge.net/Docs/PyQt4/designer.html#the-uic-module) for dynamic UI loading.
+- Do [exercise](/exercises) Qt-2
+- Mention QTimer and QTimer.singleShot
 
 We ran out of time for discussing:
   - Qt's Model-View mechanism
