@@ -26,29 +26,31 @@
   - ...
 
 ### lessons start
-- We look at the [Basic OOP Tutorial] examples to introduce basic concepts such as:
+- [Basic OOP Tutorial] examples to introduce basic concepts such as:
   - classes, objects, instances
   - initialization, `self`
   - static methods
-- We write [oop_inheritance](class_examples/oop_inheritance.py) to play with inheritance (and multiple inheritance)
+- Write [oop_inheritance](class_examples/oop_inheritance.py) to play with inheritance (and multiple inheritance)
   - inheritance
 
-- We use [oop_dawn.py](oop_dawn.py) to dive deeper at all previous OOP concepts and to introduce setter/getters and properties.
-We create [class_examples/oop_dawn2.py](class_examples/oop_dawn2.py) to understand the properties.
+- Use [oop_dawn.py](oop_dawn.py) to introduce:
+  - setter/getters 
+  - properties in function and simple decorator mode (play with[class_examples/oop_dawn2.py](class_examples/oop_dawn2.py))
 
-- I propose [exercise](/exercises) OOP-1
+- Homework: [exercise](/exercises/) OOP-1
 
 ## Day 2
 
-- We finish [exercise](/exercises) OOP-1
-- We introduce ["special methods"](https://docs.python.org/2/reference/datamodel.html#special-method-names)
-  and do [exercise](/exercises) OOP-2
-- We work on [exercise](/exercises) OOP-3 and discuss the
-  [Inheritance vs composition patterns in OOP](https://en.wikipedia.org/wiki/Composition_over_inheritance)
-- We introduce concepts such as [Duck Typing](https://en.wikipedia.org/wiki/Duck_typing#In_Python) and
-  [Monkey Patching](http://stackoverflow.com/a/5626250) and then sum up OOP concepts by studying the full
-  implementation of [oop_dawn_cheat](/exercises/cheat/oop_dawn_cheat.py).
-- We introduce Qt and PyQt, and, specifically, we discuss:
+- Finish [exercise](/exercises) OOP-1
+- Introduce ["special methods"](https://docs.python.org/2/reference/datamodel.html#special-method-names). 
+  - as an example,implement a Vector (TODO ... inherit from list, reimplement add and sub)
+  - [exercise](/exercises) OOP-2
+- Look at [exercise](/exercises) OOP-3
+- Introduce [Inheritance vs composition patterns in OOP](https://en.wikipedia.org/wiki/Composition_over_inheritance)
+- Introduce [Duck Typing](https://en.wikipedia.org/wiki/Duck_typing#In_Python)
+- Introduce [Monkey Patching](http://stackoverflow.com/a/5626250) 
+- OOP concepts by studying the full implementation of [oop_dawn_cheat](/exercises/cheat/oop_dawn_cheat.py).
+- Introduce Qt and PyQt, and, specifically, we discuss:
   - how to use the PyQt4 and Qt documentation
   - Relations vs Qt, PyQt and PySide
   - PyQt4 architecture overview (submodules and class organization)
