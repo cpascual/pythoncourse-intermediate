@@ -91,7 +91,7 @@ We ran out of time for discussing:
   pip install taurus
   pip install git+https://github.com/taurus-org/taurus_pyqtgraph.git
   ```
-- Introduce [Taurus](https://www.taurus-scada.org)
+- Introduce [Taurus](http://www.taurus-scada.org)
 - Explain Taurus Model-View architecture (schemes, ...) See presentations from
   [taurus wiki](https://github.com/taurus-org/taurus/wiki#contributed-documents)
 - Do taurusexercise01 (Create a new composite widget that uses Taurus)
