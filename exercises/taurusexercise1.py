@@ -1,4 +1,5 @@
 import sys
+
 from taurus.external.qt import QtGui
 from taurus.qt.qtgui.application import TaurusApplication
 
@@ -9,11 +10,13 @@ class TaurusExercise1Widget(QtGui.QWidget):
     def __init__(self, parent=None):
 
         # use taurusexercise1.ui (it defines 3 widgets:
-        # - lineEdit, pushButton, taurusLabel
+        # - a QlineEdit (lineEdit)
+        # - a QPushButton (pushButton)
+        # - a TaurusLabel (taurusLabel)
         #
         # make that a button click sets the text of the lineEdit as
         # the taurusLabel model
-
+        pass
 
 
 if __name__ == "__main__":
