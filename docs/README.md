@@ -85,7 +85,7 @@ We ran out of time for discussing:
 
 - install taurus and some extra dependencies
   ```
-  conda -c conda-forge install cython pillow pythonqwt guidata
+  conda install -c conda-forge cython pillow pythonqwt guidata
   conda install -c tango-controls pytango
   pip install guiqwt
   pip install taurus
