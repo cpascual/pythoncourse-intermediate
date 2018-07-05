@@ -8,8 +8,9 @@ class TaurusExercise1Widget(QtGui.QWidget):
 
     def __init__(self, parent=None):
 
-        # use taurusexercise1.ui
-
+        # use taurusexercise1.ui (it defines 3 widgets:
+        # - lineEdit, pushButton, taurusLabel
+        #
         # make that a button click sets the text of the lineEdit as
         # the taurusLabel model
 
