@@ -69,6 +69,11 @@
 - Do [exercise](/exercises) Qt-1
 - Introduce [Qt Designer](http://doc.qt.io/qt-4.8/designer-manual.html) 
 - Mention PyUic and Introduce [`PyQt.uic.loadUi()`](http://pyqt.sourceforge.net/Docs/PyQt4/designer.html#the-uic-module) for dynamic UI loading.
+  ```
+  # get the absolute path to `foo.ui` and load it into self
+  uipath = os.path.join(os.path.dirname(__file__), 'foo.ui')
+  uic.loadUi(uipath, self)
+  ```
 - Do [exercise](/exercises) Qt-2
 - Mention QTimer and QTimer.singleShot
 
@@ -78,10 +83,20 @@ We ran out of time for discussing:
 
 ## Day 4
 
+- install taurus and some extra dependencies
+  ```
+  conda -c conda-forge install cython pillow pythonqwt guidata
+  conda install -c tango-controls pytango
+  pip install guiqwt
+  pip install taurus
+  pip install git+https://github.com/taurus-org/taurus_pyqtgraph.git
+  ```
 - Introduce [Taurus](https://www.taurus-scada.org)
-- Explain Taurus Model-View architecture (schemes, ...)
+- Explain Taurus Model-View architecture (schemes, ...) See presentations from
+  [taurus wiki](https://github.com/taurus-org/taurus/wiki#contributed-documents)
 - Do taurusexercise01 (Create a new composite widget that uses Taurus)
 - Introduce TaurusBaseComponent as a way to create new Taurus widgets/objects (handleEvent, etc)
+- Do taurusexercise02 (create a new taurus-aware widget)
 
 
 # Resources
@@ -96,8 +111,9 @@ Useful resources:
 
 - [Qt Tutorial](http://zetcode.com/gui/pyqt4/)
 - PyQt4 Docs:
-  - http://pyqt.sourceforge.net/Docs/PyQt4/introduction.html
-  - http://pyqt.sourceforge.net/Docs/PyQt4/classes.html
+  - [intro](http://pyqt.sourceforge.net/Docs/PyQt4/introduction.html)
+  - [All pyqt4 classes](http://pyqt.sourceforge.net/Docs/PyQt4/classes.html)
+  - [new-style signals](http://pyqt.sourceforge.net/Docs/PyQt4/new_style_signals_slots.html)
 - Note: the C++ Qt class reference can be more usable than the PyQt4 one:
   - http://doc.qt.io/qt-4.8/classes.html
 - [Qt Designer Manual](http://doc.qt.io/qt-4.8/designer-manual.html) 

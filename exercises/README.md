@@ -94,19 +94,18 @@ Notes:
 - For the .py file, use the following template:
 ```python
 import sys
-from taurus.external.qt import QtGui
+from taurus.external.qt import QtGui, uic
 from taurus.qt.qtgui.application import TaurusApplication
-from taurus.qt.qtgui.util.ui import UILoadable
 
-@UILoadable
+
 class TaurusExercise1Widget(QtGui.QWidget):
     """A specialized QLineEdit"""
 
     def __init__(self, parent=None):
 
         # ...
-        # load the UI from ui/TaurusExercise1Widget.ui
-        self.loadUi()
+        # load the UI from <exercises>/ui/TaurusExercise1Widget.ui
+        uic.loadUi(...)
         # ...
     
     # ...

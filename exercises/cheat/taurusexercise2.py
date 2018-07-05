@@ -17,8 +17,9 @@ class EvenOddLabel(QtGui.QLabel, TaurusBaseComponent):
 
     def __init__(self, parent=None):
         # call the parent class init
-        QtGui.QLabel.__init__(self, parent=parent)
+        QtGui.QLabel.__init__(self, 'waiting...', parent=parent)
         TaurusBaseComponent.__init__(self, 'EvenOddLabel')
+        self.setMinimumWidth(100)
 
     def handleEvent(self, evt_src, evt_type, evt_val):
         """reimplemented from TaurusBaseComponent
@@ -53,7 +54,6 @@ if __name__ == "__main__":
     w.setModel(model)
     
     # show it (if you do not show the widget, it won't be visible)
-    self.setMinimumWidth(100)
     w.show()
 
     # Initialize the Qt event loop (and exit when we close the app)
