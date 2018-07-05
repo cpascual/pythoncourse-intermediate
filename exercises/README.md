@@ -88,10 +88,10 @@ it yourself.
 
 Notes:
 
-- Use taurusdesigner to create the ui, and use `UILoader` from `taurus.qt.qtgui.util.ui`
 - when running, enter a valid taurusattribute name in the lineEdit (e.g. `eval:rand()`)
   and click the button to set the model to the label in the bottom
 - For the .py file, use the following template:
+
 ```python
 import sys
 from taurus.external.qt import QtGui, uic
