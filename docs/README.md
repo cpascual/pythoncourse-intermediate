@@ -12,8 +12,14 @@
 - Fork the [official repo](https://git.cells.es/<YOURUSERNAME>/pythoncourse-intermediate)
 - Clone from fork  `git clone https://git.cells.es/<YOURUSERNAME>/pythoncourse-intermediate.git`
 - Add official remote: `git remote add official https://git.cells.es/cpascual/pythoncourse-intermediate.git`
-- PyCharm: create a PyCharm project from the local repo
-  - use conda course environment as the interpreter for the project
+- PyCharm: Create new project
+  - Location -> choose the local repo dir
+  - Interpreter -> **Existing** interpreter -> `...` -> Conda environment -> 
+    and choose the python executable from the course conda environment. Note: 
+    If you do not know where the executable is, you can get it by activating 
+    the "course" conda environment and running `where python` (in windows) or 
+    `which python` (in linux).
+    Note: it may be good to check the "Make available to other projects"
   - check that the `Settings-> editor-> inspections-> code compatibility inspections` is set to 2.7, 3.5 and 3.6
 - PyCharm quick demo and configuration:
   - Show the Structure view (`View menu -> toolWindows-> Structure`). Suggest: `gear icon -> move -> right`
